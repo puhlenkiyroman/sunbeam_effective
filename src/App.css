@@ -2,37 +2,205 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.logo{
+
+  width: 120px;
+  height: 115.349px;
+  flex-shrink: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header {
+  list-style-type: none;
   display: flex;
-  flex-direction: column;
+  width: 1920px;
+  height: 248px;
+  flex-shrink: 0;
+  background: var(--3, #FF9E67);
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
+  padding: 0; /* Добавляем нулевые отступы для списка */
+  color: var(--unnamed, #FFF);
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.header li {
+  display: inline; /* Чтобы элементы списка шли один за другим */
+  margin: 0 10px; /* Добавляем небольшие отступы между элементами списка */
+  text-decoration: none; /* Убираем подчеркивание */
+}
+
+.header a {
   color: white;
+  text-decoration: none; /* Убираем подчеркивание */
 }
 
-.App-link {
-  color: #61dafb;
+.layers {
+  margin-left: 153px;
+  flex-direction: column;
+  align-items: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.layer1 {
+  display: flex;
+  align-items: center; /* Добавляем выравнивание элементов по центру */
+  align-self: flex-start;
+  justify-content: space-between;
+}
+
+.layer1 li {
+  padding-right: 20px; /* Устанавливаем заполнение справа между элементами */
+}
+
+.layer1 li:nth-child(1) a {
+  color: var(--1, #FFF06D);
+}
+
+.layer1 li:nth-child(2) a {
+  padding: 20px 40px;
+  color: var(--3, #FF9E67);
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border-radius: 50px;
+  border: 3px solid var(--1, #FFF06D);
+  background: var(--1, #FFF06D);
+}
+
+.layer1 li:nth-last-child(3) a {
+  width: 54px;
+  height: 53px;
+  flex-shrink: 0;
+  align-self: flex-end;
+  margin-top: auto;
+}
+
+.layer2 {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  align-self: center;
+  margin-top: 40px;
+  gap: 50px;
+}
+/* Главная страница */
+.BigMain {
+  width: 1920px;
+  height: 6712px;
+}
+
+.Cloud_leftup {
+  margin-top: -62px;
+  position: absolute;
+}
+
+.Cloud_down {
+  margin-top: 343px;
+  position: absolute;
+}
+
+.Cloud_right {
+  margin-top: 303px;
+  margin-left: 1533px;
+  position: absolute;
+}
+
+.Sun {
+  margin-top: -50px;
+  margin-left: 1093px;
+  position: absolute;
+}
+
+.LuchSolntca a{
+  margin-top: 140px;
+  margin-left: 370px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 723px;
+  height: 346px;
+  color: var(--3, #FF9E67);
+  text-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.20);
+  font-family: ARCO Cyrillic;
+  font-size: 150px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 7.5px;
+}
+.LuchSolntca p {
+  margin-top: 5px;
+  margin-left: 370px;
+
+  color: var(--unnamed, #000);
+  font-family: Montserrat;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.LuchSolntca b {
+  margin-top: 15px;
+  margin-left: 370px;
+  color: var(--2, #FFCC17);
+  font-family: Montserrat;
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.4px;
+}
+
+.Background {
+  margin-top: 140px;
+  position: absolute;
+}
+
+.Elipse {
+  margin-top: 320px;
+  margin-left: 370px;
+  position: absolute;
+}
+
+.info {
+  margin-left: 399px;
+  margin-top: 330px;
+  color: var(--unnamed, #FFF);
+  text-decoration: none;
+
+  text-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.20);
+
+  /* заголовок 2 */
+  font-family: ARCO Cyrillic;
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  position: absolute;
+}
+
+.NashaCel {
+  margin-left: 370px;
+  margin-top: 520px;
+  display: flex;
+  width: 1180px;
+  flex-direction: column;
+  flex-shrink: 0;
+  color: var(--unnamed, #000);
+  text-align: justify;
+
+  /* основной текст */
+  font-family: Montserrat;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  position: absolute;
 }
