@@ -1,4 +1,8 @@
 {
+  "scripts": {
+    "yarn-frontend": "cd frontend && yarn start",
+    "yarn-backend": "cd backend && yarn develop"
+  },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^6.0.0",
     "@typescript-eslint/parser": "^6.0.0",
