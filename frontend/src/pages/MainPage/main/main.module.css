@@ -1,0 +1,49 @@
+/*потом исправить все марджины, потому что это очень плохо))))*/
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed:wght@300&display=swap');
+
+.smiles a {
+    position: absolute;
+    margin-top: 204px;
+    margin-left: 742px;
+    font-family: "Fira Sans Extra Condensed";
+    font-weight: 300;
+    font-size: 48px;
+    color: black;
+}
+
+.flower {
+    position: absolute  ;
+    margin-left:1785px;
+}
+
+.child_smiles img {
+    position: absolute;
+    padding-left: 725px;
+    margin-top: 260px;
+    height: 83px;
+    width: 464px;
+}
+
+.studio {
+    position: absolute;
+    margin-top: 360px;
+    padding-left: 760px;
+
+    font-family: Roboto;
+    font-size:  18px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.home {
+    position: absolute;
+    margin-top: 370px;
+}
+
+.button {
+    position: absolute;
+    cursor: pointer;
+    margin-top: 450px;
+    margin-left: 855px;
+}

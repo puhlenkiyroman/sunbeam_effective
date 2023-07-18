@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="94abfb81-2a09-461b-91d3-caac5c724c10" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitkeep" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,11 +70,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\79237\Desktop\Проекты\sunbeam_repo\frontend\src\pages" />
       <recent name="C:\Users\79237\Desktop\Проекты\sunbeam_repo\frontend\src\components" />
       <recent name="C:\Users\79237\Desktop\Проекты\sunbeam_repo\frontend\public" />
       <recent name="C:\Users\79237\Desktop\Проекты\sunbeam_effective\frontend\src\pages\MainPage" />
       <recent name="C:\Users\79237\Desktop\Проекты\sunbeam_effective\frontend\src\components\main" />
-      <recent name="C:\Users\79237\Desktop\Проекты\sunbeam_effective\frontend\src\pages" />
     </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
@@ -129,6 +128,7 @@
       <workItem from="1689342634336" duration="12000" />
       <workItem from="1689579699980" duration="3287000" />
       <workItem from="1689586775802" duration="3767000" />
+      <workItem from="1689669513209" duration="4973000" />
     </task>
     <servers />
   </component>
