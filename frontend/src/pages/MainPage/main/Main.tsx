@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './main.module.css';
 import { Link, useNavigate } from 'react-router-dom';
+
 import '@fontsource/roboto/400.css';
 
 function Main() {

@@ -1,0 +1,23 @@
+.ourProgramImage {
+    position: absolute;
+    margin-top: 2300px;
+    padding-left: 750px;
+}
+
+.circle_frames {
+    display: flex;
+    flex-direction: row; /* Устанавливаем направление горизонтальное */
+    margin-top: 2400px;
+    position: absolute;
+}
+
+.circle_frame1,
+.circle_frame2,
+.circle_frame3 {
+    flex: 0 0 auto; /* Отключаем растяжение рамок */
+    width: 422px;
+    height: 566px;
+    border-radius: 50px;
+    border: 2px solid #0000001A;
+    margin-right: 10px; /* Добавляем отступ между рамками */
+}

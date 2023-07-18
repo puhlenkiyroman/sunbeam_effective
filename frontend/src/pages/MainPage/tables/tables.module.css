@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed:wght@300&display=swap');
+
+.tables {
+    position: absolute;
+    margin-top: 1450px;
+}
+
+.mesta {
+    padding-left: 600px;
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.mesta a {
+    padding-left: 75px;
+}
+
+.frames {
+    position: absolute;
+
+    width: 1306px;
+    display: flex;
+    padding-left: 15px;
+}
+
+.frames img {
+    margin-right: 250px;
+}
+
+.price {
+    margin-top: 300px;
+    padding-left: 600px;
+
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.price a {
+    padding-left: 110px;
+}
+
+.button_price {
+    position: absolute;
+    margin-top: 50px;
+    padding-left: 270px;
+}
+
+.another_zavitushka {
+    user-select: none;
+    position: absolute;
+    margin-top: -180px;
+}
+
+.flower {
+    user-select: none;
+    position: absolute;
+    padding-top: -40px;
+    margin-left: -600px;
+}
+
+.lyambda {
+    user-select: none;
+    position: absolute;
+    margin-top: 225px;
+    margin-left: -300px;
+}

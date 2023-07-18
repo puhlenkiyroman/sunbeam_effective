@@ -18,6 +18,7 @@
 }
 
 .child_smiles img {
+    user-select: none;
     position: absolute;
     padding-left: 725px;
     margin-top: 260px;
@@ -37,13 +38,22 @@
 }
 
 .home {
+    user-select: none;
     position: absolute;
     margin-top: 370px;
 }
 
 .button {
+    user-select: none;
     position: absolute;
     cursor: pointer;
     margin-top: 450px;
     margin-left: 855px;
+}
+
+.lyambda {
+    user-select: none;
+    position: absolute;
+    padding-left: 250px;
+    margin-top: 650px
 }
