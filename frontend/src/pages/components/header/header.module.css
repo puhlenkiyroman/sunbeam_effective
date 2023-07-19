@@ -54,3 +54,69 @@
 .layer2 li:nth-child(2),.layer2 li:nth-child(3) {
     cursor: pointer;
 }
+
+/* чтобы выводились картинки под linkami */
+.layer li:nth-child(1):hover::after {
+    content: "";
+    display: block;
+    width: 129px;
+    height: 32px;
+    background-image: url('/public/png/odindlyaclicka.png');
+    background-size: cover;
+    position: absolute;
+    bottom: 89.5%;
+    left: 35.5%;
+    transform: translateX(-50%);
+}
+
+.layer li:nth-child(2):hover::after {
+    content: "";
+    display: block;
+    width: 107px;
+    height: 16px;
+    background-image: url('/public/png/dvadlyaclicka.png');
+    background-size: cover;
+    position: absolute;
+    bottom: 90.5%;
+    left: 43%;
+    transform: translateX(-50%);
+}
+
+.layer li:nth-child(3):hover::after {
+    content: "";
+    display: block;
+    width: 126px;
+    height: 14px;
+    background-image: url('/public/png/tridlyaclicka.png');
+    background-size: cover;
+    position: absolute;
+    bottom: 90.5%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.layer li:nth-child(4):hover::after {
+    content: "";
+    display: block;
+    width: 107px;
+    height: 16px;
+    background-image: url('/public/png/chetiredlyaclicka.png');
+    background-size: cover;
+    position: absolute;
+    bottom: 90.5%;
+    left: 57%;
+    transform: translateX(-50%);
+}
+
+.layer li:nth-child(5):hover::after {
+    content: "";
+    display: block;
+    width: 62px;
+    height: 11px;
+    background-image: url('/public/png/pyatdlyaclicka.png');
+    background-size: cover;
+    position: absolute;
+    bottom: 90.5%;
+    left: 63%;
+    transform: translateX(-50%);
+}

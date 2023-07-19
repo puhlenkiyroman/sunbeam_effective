@@ -1,9 +1,11 @@
-import React from 'react';
+import React, {useState} from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import styles from './header.module.css';
 import '@fontsource/roboto/400.css';
 
+
 function Header() {
+
     const navigate = useNavigate();
 
     const clickHandler= () => {
@@ -17,6 +19,10 @@ function Header() {
     const clickHandler2 = () => {
         window.location.href = 'https://vk.com/club217238950';
     };
+
+    const [isImage1Visible, setImage1Visible] = useState(false);
+    const [isImage2Visible, setImage2Visible] = useState(false);
+
     return (
         <header className={styles.header}>
             <div className={styles.logo}>
