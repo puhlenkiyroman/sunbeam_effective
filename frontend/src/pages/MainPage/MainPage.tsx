@@ -5,6 +5,7 @@ import Tables from './tables/Tables';
 import About_Studio from './about_studio/About_Studio'
 import Our_Program from './our_program/Our_Program'
 import Footer from '../components/footer/Footer';
+import Why_Drawing_Is_Good from "./why_drawing_is_good/Why_Drawing_Is_Good";
 
 function MainPage() {
     return (
@@ -14,6 +15,7 @@ function MainPage() {
             <About_Studio/>
             <Tables/>
             <Our_Program/>
+            <Why_Drawing_Is_Good/>
             <Footer/>
         </div>
     );
