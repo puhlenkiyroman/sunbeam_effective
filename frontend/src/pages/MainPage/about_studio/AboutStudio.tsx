@@ -2,7 +2,7 @@ import React from 'react';
 import styles from "./aboutstudio.module.css";
 import '@fontsource/roboto/400.css';
 
-function About_Studio() {
+function AboutStudio() {
     return (
         <div className={styles.about_studio}>
                 <div className={styles.caption}>
@@ -39,4 +39,4 @@ function About_Studio() {
     );
 }
 
-export default About_Studio;
+export default AboutStudio;

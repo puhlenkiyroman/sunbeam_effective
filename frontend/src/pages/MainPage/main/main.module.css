@@ -14,7 +14,6 @@
     position: absolute;
     margin-left: 350px;
     user-select: none;
-
 }
 
 .beam2 {
@@ -30,15 +29,13 @@
     top: 70px;
     margin-left: 750px;
     user-select: none;
-
 }
 
 .beam4 {
     position: absolute;
-    top: 60px;
+    top: 70px;
     margin-left: 1050px;
     user-select: none;
-
 }
 
 .beam5 {
