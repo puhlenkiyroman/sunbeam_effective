@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from "../tables/tables.module.css";
 import '@fontsource/roboto/400.css';
-
+import '@fontsource/roboto/500.css';
 function Tables() {
     return (
         <div className={styles.tables}>
@@ -22,7 +22,7 @@ function Tables() {
                 <a> то можете записаться на занятия на платной основе </a>
                 <div className={styles.button_price}>
                     {/*добавить потом модальное окно если оно будет*/}
-                    <img src="/png/button_price.png" alt="кнопка" />
+                    Подробнее о стоимости
                 </div>
             <div className={styles.flower}>
                 <img src="/png/flower2.png" alt="цветок" />

@@ -20,9 +20,6 @@ function Header() {
         window.location.href = 'https://vk.com/club217238950';
     };
 
-    const [isImage1Visible, setImage1Visible] = useState(false);
-    const [isImage2Visible, setImage2Visible] = useState(false);
-
     return (
         <header className={styles.header}>
             <div className={styles.logo}>

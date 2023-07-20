@@ -79,9 +79,9 @@
 }
 
 .text_caption {
-    font-family: "Fira Sans Extra Condensed";
-    font-size: 30px;
-    font-weight: 300;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
     padding-top: 20px;
     text-align: center;
 }
@@ -95,15 +95,39 @@
 }
 
 .schedule {
-    padding-top: 20px;
+    user-select: none;
+    position: absolute;
+    cursor: pointer;
+
+    font-family: Roboto;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 300;
+
+    margin-top: 20px;
     margin-left: 135px;
     cursor: pointer;
-    z-index: 4;
+
+    width: 149px;
+    height: 51px;
+    border-radius: 50px;
+    border: 1px solid #000000;
+
+/* При наведении и нажатии*/
+&:hover {
+     background-color: #FFF06D;
+ }
+&:active {
+     background-color: #FFF06D;
+ }
+
 }
 
 .secondryad {
     display: flex;
-    margin-top: 3200px;
+    margin-top: 3150px;
     position: absolute;
     width: 100%;
     z-index: 2;

@@ -7,9 +7,9 @@
 
 .mesta {
     padding-left: 600px;
-    font-family: 'Fira Sans Extra Condensed', sans-serif;
-    font-size: 30px;
-    font-weight: 300;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: 500;
 }
 
 .mesta a {
@@ -21,7 +21,7 @@
 
     width: 1306px;
     display: flex;
-    padding-left: 15px;
+    padding-left: 5px;
 }
 
 .frames img {
@@ -30,11 +30,11 @@
 
 .price {
     margin-top: 300px;
-    padding-left: 590px;
+    padding-left: 600px;
 
-    font-family: 'Fira Sans Extra Condensed', sans-serif;
-    font-size: 30px;
-    font-weight: 300;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
 }
 
 .price a {
@@ -42,9 +42,34 @@
 }
 
 .button_price {
+    user-select: none;
     position: absolute;
-    margin-top: 50px;
-    padding-left: 270px;
+    cursor: pointer;
+
+    font-family: Roboto;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 300;
+
+    top: 475px;
+    left: 810px;
+
+    width: 249px;
+    height: 51px;
+    border-radius: 50px;
+    border: 1px solid #000000;
+    margin-left: 40px;
+
+/* При наведении и нажатии*/
+&:hover {
+     background-color: #FFF06D;
+ }
+&:active {
+     background-color: #FFF06D;
+ }
+
 }
 
 .another_zavitushka {
@@ -64,5 +89,5 @@
     user-select: none;
     position: absolute;
     margin-top: 225px;
-    margin-left: -300px;
+    margin-left: -330px;
 }

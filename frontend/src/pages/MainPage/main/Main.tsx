@@ -3,6 +3,7 @@ import styles from './main.module.css';
 import { Link, useNavigate } from 'react-router-dom';
 
 import '@fontsource/roboto/400.css';
+import '@fontsource/roboto/300.css';
 
 function Main() {
     const navigate = useNavigate();
@@ -35,12 +36,8 @@ function Main() {
             <div className={styles.home}>
                 <img src="/png/домик.png" alt="домик" />
             </div>
-            <div className={styles.button}>
-                <img
-                    src="/png/кнопка.png"
-                    alt="кнопка"
-                    onClick={clickHandler}
-                />
+            <div className={styles.button} onClick={clickHandler}>
+                Узнать расписание
                 <Link to="/schedule"></Link>
             </div>
         </div>

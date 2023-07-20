@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from "../our_program/ourprogram.module.css";
 import '@fontsource/roboto/400.css';
+import '@fontsource/roboto/500.css';
 import {useNavigate} from "react-router-dom";
 
 function OurProgram() {
@@ -19,23 +20,29 @@ function OurProgram() {
                 <div className={styles.firstryad}>
                     <div className={styles.circle_frame1}>
                         <img src="/png/ourprogram1.png" alt="наши программы" className={styles.perviyrisunok} />
-                        <div className={styles.text_caption}> 4 года </div>
+                        <div className={styles.text_caption}> Для детей 4 лет </div>
                         <div className={styles.text_creation}> Ранее творческое <br/> развитие</div>
-                        <img src="/png/schedule.png" alt="наши программы" onClick={clickHandler} className={styles.schedule}/>
+                        <div onClick={clickHandler} className={styles.schedule}>
+                            Расписание
+                        </div>
                     </div>
 
                     <div className={styles.circle_frame2}>
                         <img src="/png/ourprogram2.png" alt="наши программы" className={styles.vtoroyrisunok} />
                         <div className={styles.text_caption}> Для детей 5-6 лет </div>
                         <div className={styles.text_creation}> Художественное <br/> творчество</div>
-                        <img src="/png/schedule.png" alt="наши программы" onClick={clickHandler} className={styles.schedule}/>
+                        <div onClick={clickHandler} className={styles.schedule}>
+                            Расписание
+                        </div>
                     </div>
 
                     <div className={styles.circle_frame3}>
                         <img src="/png/ourprogram3.png" alt="наши программы" className={styles.tretiyrisunok} />
                         <div className={styles.text_caption}> Для детей 7-8 лет </div>
                         <div className={styles.text_creation}> Основы художественного <br/> образования</div>
-                        <img src="/png/schedule.png" alt="наши программы" onClick={clickHandler} className={styles.schedule}/>
+                        <div onClick={clickHandler} className={styles.schedule}>
+                            Расписание
+                        </div>
                     </div>
                 </div>
                 <div className={styles.secondryad}>
@@ -43,21 +50,27 @@ function OurProgram() {
                         <img src="/png/ourprogram1.png" alt="наши программы" className={styles.perviyrisunok} />
                         <div className={styles.text_caption}> Для детей 8-9 лет </div>
                         <div className={styles.text_creation}> Основы художественного <br/> образования</div>
-                        <img src="/png/schedule.png" alt="наши программы" onClick={clickHandler} className={styles.schedule}/>
+                        <div onClick={clickHandler} className={styles.schedule}>
+                            Расписание
+                        </div>
                     </div>
 
                     <div className={styles.circle_frame5}>
                         <img src="/png/ourprogram4.png" alt="наши программы" className={styles.vtoroyrisunok} />
                         <div className={styles.text_caption}>  Для детей 10-11 лет </div>
                         <div className={styles.text_creation}> Основы художественного <br/> образования</div>
-                        <img src="/png/schedule.png" alt="наши программы" onClick={clickHandler} className={styles.schedule}/>
+                        <div onClick={clickHandler} className={styles.schedule}>
+                            Расписание
+                        </div>
                     </div>
 
                     <div className={styles.circle_frame6}>
                         <img src="/png/ourprogram5.png" alt="наши программы" className={styles.tretiyrisunok} />
                         <div className={styles.text_caption}> Для детей любого возраста </div>
                         <div className={styles.text_creation}> Индивидуальные <br/> коррекционные занятия </div>
-                        <img src="/png/schedule.png" alt="наши программы" onClick={clickHandler} className={styles.schedule}/>
+                        <div onClick={clickHandler} className={styles.schedule}>
+                            Расписание
+                        </div>
                     </div>
                 </div>
                 <img src="/png/butterfly.png" alt="butterfly" className={styles.butterfly} />

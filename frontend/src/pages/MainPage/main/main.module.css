@@ -111,8 +111,31 @@
     user-select: none;
     position: absolute;
     cursor: pointer;
-    margin-top: 450px;
-    margin-left: 855px;
+
+    font-family: Roboto;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 300;
+
+    top: 550px;
+    left: 810px;
+
+    width: 249px;
+    height: 51px;
+    border-radius: 50px;
+    border: 1px solid #000000;
+    margin-left: 40px;
+
+    /* При наведении и нажатии*/
+    &:hover {
+     background-color: #FFF06D;
+ }
+    &:active {
+     background-color: #FFF06D;
+ }
+
 }
 
 .lyambda {

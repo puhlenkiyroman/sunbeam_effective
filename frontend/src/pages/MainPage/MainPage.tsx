@@ -6,7 +6,7 @@ import About_Studio from './about_studio/About_Studio'
 import Our_Program from './our_program/Our_Program'
 import Footer from '../components/footer/Footer';
 import Why_Drawing_Is_Good from "./why_drawing_is_good/Why_Drawing_Is_Good";
-import ScrollToTopButton from '../components/ScrollToTopButton/ScrollToTopButton'; // Путь к вашему компоненту ScrollToTopButton
+import ScrollToTopButton from '../components/ScrollToTopButton/ScrollToTopButton';
 
 function MainPage() {
     return (
