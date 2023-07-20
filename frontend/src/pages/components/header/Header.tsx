@@ -37,7 +37,6 @@ function Header() {
             </div>
             <div className={styles.layer2}>
                 <li> <a> +7 (913) 640-03-69 </a> </li>
-                 {/*сюда добавить клики на 2гис и вк*/}
                 <li> <img src="/png/2гис.png" alt="2гис" onClick={clickHandler1}/> </li>
                 <li> <img src="/png/вк.png" alt="вк" onClick={clickHandler2}/> </li>
             </div>

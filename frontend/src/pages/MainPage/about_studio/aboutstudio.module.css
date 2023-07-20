@@ -46,6 +46,8 @@
     position: absolute;
     padding-left: 1400px;
     margin-top: 750px;
+    user-select: none;
+
 }
 
 .radi {
@@ -53,12 +55,15 @@
     position: absolute;
     padding-left: 700px;
     margin-top: 1215px;
+    user-select: none;
+
 }
 
 .mark {
     pointer-events: none;
     position: absolute;
     margin-top: 960px;
+    user-select: none;
 }
 
 .heart1 {
@@ -66,6 +71,8 @@
     position: absolute;
     padding-left: 600px;
     margin-top: 1250px;
+    user-select: none;
+
 }
 
 .heart2 {
@@ -73,6 +80,7 @@
     position: absolute;
     padding-left: 1000px;
     margin-top: 1200px;
+    user-select: none;
 }
 
 .zavitushka {

@@ -13,6 +13,14 @@ function Main() {
 
     return (
         <div className={styles.smiles}>
+            <img src="/png/beam.png" alt="1 луч" className={styles.beam} />
+            <img src="/png/beam1.png" alt="2 луч" className={styles.beam1}/>
+            <img src="/png/beam2.png" alt="2 луч" className={styles.beam2}/>
+            <img src="/png/beam3.png" alt="3 луч" className={styles.beam3}/>
+            <img src="/png/beam4.png" alt="4 луч" className={styles.beam4}/>
+            <img src="/png/beam5.png" alt="5 луч" className={styles.beam5}/>
+            <img src="/png/beam6.png" alt="6 луч" className={styles.beam6}/>
+            <img src="/png/beam7.png" alt="7 луч" className={styles.beam7}/>
             <a> Мы за</a>
             <div className={styles.flower}>
                 <img src="/png/цветок.png" alt="цветок" />

@@ -4,14 +4,16 @@
 
 .cat {
     position: absolute;
+    user-select: none;
     padding-left: 1625px;
     margin-top: -200px;
     z-index: -2;
 }
 
 .zavitushka5 {
+    user-select: none;
     position: absolute;
-    padding-top: 100px;
+    padding-top: 200px;
     z-index: -1;
 }
 
@@ -19,6 +21,8 @@
     position: absolute;
     margin-top: 300px;
     padding-left: 1300px;
+    z-index: -3;
+    user-select: none;
 }
 
 /* Frames*/
