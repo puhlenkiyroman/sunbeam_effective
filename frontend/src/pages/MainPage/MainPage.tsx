@@ -1,4 +1,5 @@
 import React from 'react';
+import { useState, useEffect } from 'react';
 import Header from '../components/header/Header';
 import Main from "./main/Main";
 import Tables from './tables/Tables';

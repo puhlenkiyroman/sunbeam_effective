@@ -30,10 +30,10 @@ function Header() {
                 <li><Link to="/news">Новости</Link></li>
                 <li><Link to="/works">Наши работы</Link></li>
                 <li><Link to="/art-shop">Арт-лавка</Link></li>
-                <li><Link to="/about">О нас</Link></li>
+                <li><Link to="/about_us">О нас</Link></li>
             </div>
             <div className={styles.layer2}>
-                <li> <a> +7 (913) 640-03-69 </a> </li>
+                <li> <a> +7 (913) 640-03-59 </a> </li>
                 <li> <img src="/png/2гис.png" alt="2гис" onClick={clickHandler1}/> </li>
                 <li> <img src="/png/вк.png" alt="вк" onClick={clickHandler2}/> </li>
             </div>

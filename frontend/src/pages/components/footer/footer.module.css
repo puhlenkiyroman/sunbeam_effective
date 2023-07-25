@@ -1,3 +1,5 @@
+
+
 .footerImg {
     position: absolute;
     user-select: none;
@@ -24,13 +26,14 @@
 }
 
 .phone {
-    top: 4850px;
-    left: 30px;
+    position: absolute;
+    padding-top: 21%;
 }
 
 .address {
-    top: 4850px;
-    left: 250px;
+   position: absolute;
+   padding-left: 250px;
+   padding-top: 21%;
 }
 
 .links {
