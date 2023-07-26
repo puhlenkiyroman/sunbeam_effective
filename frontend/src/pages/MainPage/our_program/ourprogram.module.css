@@ -114,16 +114,15 @@
     height: 51px;
     border-radius: 50px;
     border: 1px solid #000000;
-
-/* При наведении и нажатии*/
-&:hover {
-     background-color: #FFF06D;
- }
-&:active {
-     background-color: #FFF06D;
- }
-
 }
+/* При наведении и нажатии*/
+.schedule:hover {
+     background-color: #FFF06D;
+}
+.schedule:active {
+     background-color: #FFF06D;
+}
+
 
 .secondryad {
     display: flex;
