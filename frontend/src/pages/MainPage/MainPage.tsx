@@ -8,18 +8,18 @@ import OurProgram from './our_program/OurProgram'
 import Footer from '../components/footer/Footer';
 import WhyDrawingIsGood from "./why_drawing_is_good/WhyDrawingIsGood";
 import ScrollToTopButton from '../components/ScrollToTopButton/ScrollToTopButton';
+import Layout from "../components/layout/Layout";
 
 function MainPage() {
     return (
         <div>
-            <Header/>
+            <Layout>
             <Main/>
             <AboutStudio/>
             <Tables/>
             <OurProgram/>
             <WhyDrawingIsGood/>
-            <ScrollToTopButton/>
-                <Footer/>
+            </Layout>
         </div>
     );
 }
