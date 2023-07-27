@@ -24,7 +24,6 @@
         transform: translateX(-1500%);
     }
 }
-/*
 
 @media screen and (min-width: 1200px) and (max-width: 1600px) {
 
@@ -44,11 +43,11 @@
         outline: none;
         padding-top: 10px;
     }
-    !*Где кнопка будет показываться, когда пользователь долистает*!
+    /*Где кнопка будет показываться, когда пользователь долистает*/
     .scroll-to-top-button.show {
         display: block;
         bottom: 10%;
         transform: translateY(1000%);
-        transform: translateX(-1000%);
+        transform: translateX(-1100%);
     }
-}*/
+}

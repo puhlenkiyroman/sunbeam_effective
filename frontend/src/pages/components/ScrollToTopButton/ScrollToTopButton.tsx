@@ -13,8 +13,15 @@ const ScrollToTopButton = () => {
 
     const handleScroll = () => {
         const windowHeight = window.innerHeight;
-        // Показываем кнопку только когда пользователь прокрутил страницу вниз на определенное расстояние
-        const scrollThreshold = 4.5 * windowHeight;
+        const screenWidth = window.innerWidth;
+        let scrollThreshold;
+
+
+        if (screenWidth < 1600) {
+            scrollThreshold = 3.7 * windowHeight;
+        } else {
+            scrollThreshold = 4.3 * windowHeight;
+        }
         setIsVisible(window.scrollY > scrollThreshold);
     };
 
