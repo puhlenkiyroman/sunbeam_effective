@@ -12,8 +12,10 @@ const ScrollToTopButton = () => {
     };
 
     const handleScroll = () => {
+        const windowHeight = window.innerHeight;
         // Показываем кнопку только когда пользователь прокрутил страницу вниз на определенное расстояние
-        setIsVisible(window.scrollY > 4000);
+        const scrollThreshold = 4.5 * windowHeight;
+        setIsVisible(window.scrollY > scrollThreshold);
     };
 
     useEffect(() => {

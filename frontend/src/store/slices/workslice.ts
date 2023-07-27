@@ -1,5 +1,5 @@
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
-import axios from './axios/index';
+import axios from 'axios';
 
 // Создание асинхронного thunk для получения данных о работах
 export const fetchWorks = createAsyncThunk('works/fetchWorks', async () => {
@@ -27,7 +27,7 @@ const worksSlice = createSlice({
             })
             .addCase(fetchWorks.rejected, (state, action) => {
                 state.status = 'rejected';
-                state.error = action.error.message;
+                /*state.error = action.error.message;*/
             });
     },
 });
