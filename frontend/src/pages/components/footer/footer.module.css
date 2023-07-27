@@ -1,4 +1,4 @@
-@media(max-width: 1920px) {
+@media screen and (max-width: 1920px) {
     .footerImg {
         position: absolute;
         user-select: none;
@@ -91,7 +91,8 @@
     }
 }
 
-@media(max-width: 1366px) {
+@media screen and (min-width: 1200px) and (max-width: 1600px) {
+
 
     .footerImg {
         position: absolute;
@@ -179,7 +180,8 @@
     }
 
     .payments {
-        margin-left: 75%;
+        position: absolute;
+        margin-right: 0%;
         user-select: none;
     }
 }

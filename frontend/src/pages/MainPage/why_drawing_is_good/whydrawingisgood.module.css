@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed:wght@300&display=swap');
 
-@media(max-width: 1920px) {
+@media screen and (max-width: 1920px) {
 
     /*Рисунки*/
     .cat {
@@ -42,7 +42,6 @@
         width: 100%;
     }
 
-
     .text {
         font-size: 18px;
         font-family: Roboto;
@@ -54,13 +53,12 @@
 
     .first_ryad {
         margin-top: -5%;
-
     }
 
     .circle_frame1{
         position: absolute;
         display: inline-block;
-        max-width: 593px;
+        max-width: 553px;
         width: 100%;
         height: 83px;
         border-radius: 20px;
@@ -175,14 +173,13 @@
     }
 }
 
-@media(max-width: 1366px) {
+@media screen and (min-width: 1200px) and (max-width: 1600px) {
 
     /*Рисунки*/
     .cat {
         position: absolute;
         user-select: none;
-        padding-left: 78.7%;
-        margin-top: -21%;
+        margin-top: -22%;
         z-index: -2;
     }
 
@@ -291,10 +288,10 @@
     }
 
     .circle_frame5 {
-        left: 59%;
+        left: 62%;
         position: absolute;
         display: inline-block;
-        max-width: 514px;
+        max-width: 474px;
         width: 100%;
         height: 83px;
         border-radius: 20px;

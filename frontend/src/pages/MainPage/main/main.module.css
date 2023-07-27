@@ -1,7 +1,7 @@
 /*потом исправить все марджины, потому что это очень плохо))))*/
 
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed:wght@300&display=swap');
-@media(max-width: 1920px) {
+
     /*Лучи*/
     .beam {
         position: absolute;
@@ -134,15 +134,12 @@
 
     .lyambda {
         position: absolute;
-        max-width: 519px;
-        width: 100%;
-        padding-top: 37%;
-        padding-left: 12%;
+        max-width: 100%;
+        padding-top: 40%;
+        padding-left: 10%;
     }
-}
 
-
-@media(max-width: 1366px) {
+@media screen and (max-width: 1600px) {
     /*Лучи*/
     .beam {
         position: absolute;
@@ -194,8 +191,8 @@
 
     .beam7 {
         position: absolute;
-        top: 62%;
-        margin-left: 63%;
+        top: 55%;
+        margin-left: 70%;
         user-select: none;
     }
 

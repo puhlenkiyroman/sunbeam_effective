@@ -1,4 +1,4 @@
-@media(max-width: 1920px) {
+@media screen and (max-width: 1920px) {
     .scroll-to-top-button {
         position: fixed;
         bottom: 2%;
@@ -24,7 +24,10 @@
         transform: translateX(-1500%);
     }
 }
-@media(max-width: 1366px) {
+/*
+
+@media screen and (min-width: 1200px) and (max-width: 1600px) {
+
     .scroll-to-top-button {
         position: fixed;
         bottom: 2%;
@@ -41,11 +44,11 @@
         outline: none;
         padding-top: 10px;
     }
-    /*Где кнопка будет показываться, когда пользователь долистает*/
+    !*Где кнопка будет показываться, когда пользователь долистает*!
     .scroll-to-top-button.show {
         display: block;
         bottom: 10%;
         transform: translateY(1000%);
         transform: translateX(-1000%);
     }
-}
+}*/

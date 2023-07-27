@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed:wght@300&display=swap');
 
-@media(max-width: 1920px) {
+@media screen and (max-width: 1920px) {
     /* Рисунки */
     .ourProgramImage {
         position: absolute;
@@ -151,7 +151,8 @@
 }
 
 
-@media(max-width: 1366px) {
+@media screen and (min-width: 1200px) and (max-width: 1600px) {
+
     /* Рисунки */
     .ourProgramImage {
         position: absolute;

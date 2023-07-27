@@ -19,7 +19,7 @@ function MainPage() {
             <OurProgram/>
             <WhyDrawingIsGood/>
             <ScrollToTopButton/>
-            <Footer/>
+                <Footer/>
         </div>
     );
 }

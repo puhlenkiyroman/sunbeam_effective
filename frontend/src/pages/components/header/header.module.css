@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 
-@media(max-width: 1920px) {
+@media screen and (max-width: 1920px){
 
     .logo {
         width: 60px;
@@ -127,7 +127,7 @@
     }
 }
 
-@media(max-width: 1366px) {
+@media screen and (min-width: 1366px) and (max-width: 1600px) {
 
     .logo {
         width: 60px;
@@ -196,8 +196,8 @@
         background-image: url('/public/png/odindlyaclicka.png');
         background-size: cover;
         position: absolute;
-        bottom: 87%;
-        left: 30%;
+        bottom: 90%;
+        left: 35%;
         transform: translateX(-50%);
     }
 
@@ -209,8 +209,8 @@
         background-image: url('/public/png/dvadlyaclicka.png');
         background-size: cover;
         position: absolute;
-        bottom: 88%;
-        left: 40%;
+        bottom: 91%;
+        left: 42%;
         transform: translateX(-50%);
     }
 
@@ -222,8 +222,8 @@
         background-image: url('/public/png/tridlyaclicka.png');
         background-size: cover;
         position: absolute;
-        bottom: 88%;
-        left: 50%;
+        bottom: 91%;
+        left: 51%;
         transform: translateX(-50%);
     }
 
@@ -235,8 +235,8 @@
         background-image: url('/public/png/chetiredlyaclicka.png');
         background-size: cover;
         position: absolute;
-        bottom: 89%;
-        left: 61%;
+        bottom: 91%;
+        left: 59%;
         transform: translateX(-50%);
     }
 
@@ -248,8 +248,8 @@
         background-image: url('/public/png/pyatdlyaclicka.png');
         background-size: cover;
         position: absolute;
-        bottom: 89%;
-        left: 69%;
+        bottom: 91%;
+        left: 65%;
         transform: translateX(-50%);
     }
 }

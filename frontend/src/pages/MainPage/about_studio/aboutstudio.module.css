@@ -62,7 +62,7 @@
     .mark {
          pointer-events: none;
          position: absolute;
-         margin-top: 50.5%;
+         margin-top: 50.3%;
          user-select: none;
      }
 
@@ -94,7 +94,7 @@
 }
 
 
-@media(max-width: 1366px) {
+@media screen and (max-width: 1600px) {
 
     .about_studio {
         padding-left: 25px;
@@ -140,7 +140,7 @@
         width: 100%;
         pointer-events: none;
         position: absolute;
-        padding-left: 59%;
+        padding-left: 65%;
         margin-top: 40%;
         user-select: none;
     }
@@ -156,11 +156,11 @@
     }
 
     .mark {
-        max-width: 128.79px;
+        max-width: 120px;
         width: 100%;
         pointer-events: none;
         position: absolute;
-        margin-top: 52.3%;
+        margin-top: 52%;
         user-select: none;
     }
 
@@ -172,7 +172,6 @@
         padding-left: 30%;
         margin-top: 70%;
         user-select: none;
-
     }
 
     .heart2 {
@@ -191,7 +190,7 @@
         width: 100%;
         pointer-events: none;
         position: absolute;
-        padding-left: 62.5%;
-        margin-top: 70%;
+        padding-left: 70%;
+        margin-top: 65%;
     }
 }
